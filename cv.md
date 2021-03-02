@@ -6,7 +6,7 @@
 ```
 using System;
 
-namespace CSharpTutorials
+namespace Test
 {
     class Program
     {
@@ -16,7 +16,6 @@ namespace CSharpTutorials
         }
     }
 }
-
 ```
 6. 7+ years of experience in Design, Development and Implementation of Windows Forms Application development using Microsoft .NET Framework, C#.NET.
 7. Higher education, TUIT (Radio communication, broadcasting and television)
