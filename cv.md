@@ -2,7 +2,7 @@
 2. sergey.e.kim@gmail.com
 3. C# Developer
 4. C#.NET, Microsoft .NET Framework 4.5, WinForm, LINQ, T-SQL
-5. 
+5. Example:
 ```
 using System;
 
