@@ -37,7 +37,7 @@
 ```
 -----
 ##Experience:
-7+ years of experience in Design, Development and Implementation of Windows Forms Application development using Microsoft .NET Framework, C#
+7+ years of experience in design, development and implementation of Windows Forms application using Microsoft .NET Framework, C#
 -----
 ##Education:
 1. Tashkent University of Information Technologies named after Muhammad al-Khwarizmi (Radio communication, Radio broadcasting and Television), Bachelor's degree
