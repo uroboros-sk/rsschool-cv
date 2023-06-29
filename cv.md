@@ -1,20 +1,22 @@
 -----
-#[rsschool-cv](https://uroboros-sk.github.io/rsschool-cv/)
+# [rsschool-cv](https://uroboros-sk.github.io/rsschool-cv/)
 -----
-##Sergey Kim
+
+## Sergey Kim
 **C# Developer**
+
 -----
-##Contacts:
+## Contacts:
 - Location: Uzbekistan, Tashkent
 - E-mail: sergey.e.kim@gmail.com
 -----
-##Skills:
+## Skills:
 - C#, Microsoft .NET Framework 4.5 
 - Windows Forms
 - ADO.NET
 - T-SQL
 -----
-##Code Example:
+## Code Example:
 ```
     private void StartWsServer(string serverIp, int serverPort)
     {
@@ -36,10 +38,10 @@
     }
 ```
 -----
-##Experience:
+## Experience:
 - 7+ years of experience in design, development and implementation of Windows Forms application using Microsoft .NET Framework, C#
 -----
-##Education:
+## Education:
 - Tashkent University of Information Technologies named after Muhammad al-Khwarizmi (Radio communication, Radio broadcasting and Television), Bachelor's degree
 - English level - basic
 -----
