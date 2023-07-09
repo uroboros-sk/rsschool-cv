@@ -59,7 +59,7 @@ body {
 }
 
 .brief-info-list {
-  list-style-image: url(images/rectangle.svg);
+  list-style-image: url("../images/rectangle.svg");
   padding-left: 0px;
   margin-left: 15px;
 }
@@ -69,11 +69,11 @@ body {
 }
 
 .brief-info-list li:nth-child(2) {
-  list-style-image: url(images/location-icon.svg);
+  list-style-image: url("../images/location-icon.svg");
 }
 
 .brief-info-list li:last-child {
-  list-style-image: url(images/email-icon.svg);
+  list-style-image: url("../images/email-icon.svg");
 }
 
 .title-column-left {
