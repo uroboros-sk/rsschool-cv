@@ -1,0 +1,104 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin-top: 30px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5c6168;
+  background-color: #d5dae4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #e8eaee;
+}
+
+.container-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  flex-basis: 400px;
+  padding-bottom: 25px;
+}
+
+.photo {
+  display: block;
+  width: 115px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+  background-color: #ffffff;
+  margin-top: 25px;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  background-color: #ffffff;
+  padding-left: 50px;
+  padding-bottom: 25px;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.brief-info-list {
+  list-style-image: url("../images/rectangle.svg");
+  padding-left: 0px;
+  margin-left: 15px;
+}
+
+.brief-info-item {
+  padding: 7px 4px;
+}
+
+.brief-info-list li:nth-child(2) {
+  list-style-image: url("../images/location-icon.svg");
+}
+
+.brief-info-list li:last-child {
+  list-style-image: url("../images/email-icon.svg");
+}
+
+.title-column-left {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.skills-list {
+  padding-left: 50px;
+  margin-left: 15px;
+}
+
+.skills-list li {
+  margin-bottom: 15px;
+}
+
+.footer-inner {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+
+.rs-logo-img {
+  width: 75px;
+}
