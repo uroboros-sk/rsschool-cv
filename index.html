@@ -4,9 +4,111 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>CV</title>
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="container-inner">
+        <div class="column-left">
+          <img class="photo" src="/images/cv_photo.png" alt="photo">
+        </div>
+        <div class="column-right">
+          <h1 class="title">Sergey Kim</h1>
+          <ul class="brief-info-list">
+            <li class="brief-info-item">C# Developer</li>
+            <li class="brief-info-item">Uzbekistan, Tashkent</li>
+            <li class="brief-info-item">
+              <a href="mailto:sergey.e.kim@gmail.com">sergey.e.kim@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="container">
+        <div class="container-inner">
+          <div class="column-left">
+            <h2 class="title-column-left">Skills</h2>
+            <ul class="skills-list">
+              <li>C#, Microsoft .NET Framework 4.5</li>
+              <li>Windows Forms</li>
+              <li>ADO.NET</li>
+              <li>T-SQL</li>
+            </ul>
+          </div>
+          <div class="column-right">
+            <h2 class="title-column-left">Code Example</h2>
+            <pre>
+            private void StartWsServer(string serverIp, int serverPort)
+            {
+              try
+              {
+                _serverWs = new WatsonWsServer(serverIp, serverPort);
+                _serverWs.ClientConnected += ServerWs_ClientConnected;
+                _serverWs.ClientDisconnected += ServerWs_ClientDisconnected;
+                _serverWs.MessageReceived += ServerWs_MessageReceived;
+                _serverWs.Start();
+                _isBusy = false;
+              }
+              catch (Exception ex)
+              {
+                MessageBox.Show(ex.Message);
+                Logger.Error(ex, ex.Message);
+                ExitApp();
+              }
+            }
+              </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="container-inner">
+          <div class="column-left">
+            <h2 class="title-column-left">Education</h2>
+            <ul class="education-list">
+              <li>
+                <p>Tashkent University of Information Technologies named after Muhammad al-Khwarizmi (Radio
+                  communication, Radio broadcasting and Television), Bachelor's degree</p>
+                <p>Bachelor's degree</p>
+                <p>2001-2005</p>
+              </li>
+              <li>English - Basic level</li>
+            </ul>
+          </div>
+          <div class="column-right">
+            <h2 class="title-column-left">Experience</h2>
+            <ul>
+              <li>
+                <p>7+ years of experience in design, development and implementation of Windows Forms application using
+                  Microsoft .NET
+                  Framework, C#</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p>© 2023 Sergey Kim</p>
+        <a href="https://github.com/uroboros-sk/rsschool-cv" target="_blank">GitGub</a>
+        <a href="https://rs.school/js/" target="_blank">
+          <img class="rs-logo-img" src="images/rs_school_js.svg" alt="rs-logo">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
